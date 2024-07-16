@@ -11,6 +11,7 @@
 		DBD1D0CB2C47102000846C02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD1D0CA2C47102000846C02 /* ContentView.swift */; };
 		DBD1D0D02C47102100846C02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD1D0CF2C47102100846C02 /* Preview Assets.xcassets */; };
 		DBD1D0D72C47115B00846C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD1D0D62C47115B00846C02 /* Assets.xcassets */; };
+		DBD1D0DA2C4712A600846C02 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD1D0D92C4712A600846C02 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DBD1D0CA2C47102000846C02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DBD1D0CF2C47102100846C02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DBD1D0D62C47115B00846C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		DBD1D0D92C4712A600846C02 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		DBD1D0C72C47102000846C02 /* Crypto Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				DBD1D0D82C47127500846C02 /* Extensions */,
 				DBD1D0C82C47102000846C02 /* Crypto_TrackerApp.swift */,
 				DBD1D0D62C47115B00846C02 /* Assets.xcassets */,
 				DBD1D0CA2C47102000846C02 /* ContentView.swift */,
@@ -65,6 +68,14 @@
 				DBD1D0CF2C47102100846C02 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBD1D0D82C47127500846C02 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DBD1D0D92C4712A600846C02 /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				DBD1D0CB2C47102000846C02 /* ContentView.swift in Sources */,
 				DBD1D0C92C47102000846C02 /* Crypto_TrackerApp.swift in Sources */,
+				DBD1D0DA2C4712A600846C02 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
