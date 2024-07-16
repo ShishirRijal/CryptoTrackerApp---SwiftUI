@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		DBD1D0C92C47102000846C02 /* Crypto_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD1D0C82C47102000846C02 /* Crypto_TrackerApp.swift */; };
 		DBD1D0CB2C47102000846C02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD1D0CA2C47102000846C02 /* ContentView.swift */; };
-		DBD1D0CD2C47102100846C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD1D0CC2C47102100846C02 /* Assets.xcassets */; };
 		DBD1D0D02C47102100846C02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD1D0CF2C47102100846C02 /* Preview Assets.xcassets */; };
+		DBD1D0D72C47115B00846C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD1D0D62C47115B00846C02 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DBD1D0C52C47102000846C02 /* Crypto Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD1D0C82C47102000846C02 /* Crypto_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto_TrackerApp.swift; sourceTree = "<group>"; };
 		DBD1D0CA2C47102000846C02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DBD1D0CC2C47102100846C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBD1D0CF2C47102100846C02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBD1D0D62C47115B00846C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				DBD1D0C82C47102000846C02 /* Crypto_TrackerApp.swift */,
+				DBD1D0D62C47115B00846C02 /* Assets.xcassets */,
 				DBD1D0CA2C47102000846C02 /* ContentView.swift */,
-				DBD1D0CC2C47102100846C02 /* Assets.xcassets */,
 				DBD1D0CE2C47102100846C02 /* Preview Content */,
 			);
 			path = "Crypto Tracker";
@@ -126,7 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBD1D0D02C47102100846C02 /* Preview Assets.xcassets in Resources */,
-				DBD1D0CD2C47102100846C02 /* Assets.xcassets in Resources */,
+				DBD1D0D72C47115B00846C02 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
