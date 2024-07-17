@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DBA007412C47E03A007B1CE8 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA007402C47E03A007B1CE8 /* CoinRowView.swift */; };
+		DBA007462C47E3B0007B1CE8 /* MockCoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA007452C47E3B0007B1CE8 /* MockCoinModel.swift */; };
+		DBA007482C47E606007B1CE8 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA007472C47E606007B1CE8 /* Double.swift */; };
 		DBD1D0C92C47102000846C02 /* Crypto_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD1D0C82C47102000846C02 /* Crypto_TrackerApp.swift */; };
 		DBD1D0CB2C47102000846C02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD1D0CA2C47102000846C02 /* ContentView.swift */; };
 		DBD1D0D02C47102100846C02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD1D0CF2C47102100846C02 /* Preview Assets.xcassets */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DBA007402C47E03A007B1CE8 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		DBA007452C47E3B0007B1CE8 /* MockCoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCoinModel.swift; sourceTree = "<group>"; };
+		DBA007472C47E606007B1CE8 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		DBD1D0C52C47102000846C02 /* Crypto Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD1D0C82C47102000846C02 /* Crypto_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto_TrackerApp.swift; sourceTree = "<group>"; };
 		DBD1D0CA2C47102000846C02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DBA007442C47E398007B1CE8 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				DBA007452C47E3B0007B1CE8 /* MockCoinModel.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		DBD1D0BC2C47102000846C02 = {
 			isa = PBXGroup;
 			children = (
@@ -61,9 +75,10 @@
 		DBD1D0C72C47102000846C02 /* Crypto Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				DBA007442C47E398007B1CE8 /* Mocks */,
+				DBD1D0D82C47127500846C02 /* Extensions */,
 				DBD1D0E72C471E8000846C02 /* Models */,
 				DBD1D0DB2C47146800846C02 /* Core */,
-				DBD1D0D82C47127500846C02 /* Extensions */,
 				DBD1D0C82C47102000846C02 /* Crypto_TrackerApp.swift */,
 				DBD1D0D62C47115B00846C02 /* Assets.xcassets */,
 				DBD1D0CA2C47102000846C02 /* ContentView.swift */,
@@ -84,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				DBD1D0D92C4712A600846C02 /* Color.swift */,
+				DBA007472C47E606007B1CE8 /* Double.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -101,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				DBD1D0DF2C4714B300846C02 /* HomeView.swift */,
+				DBA007402C47E03A007B1CE8 /* CoinRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -216,12 +233,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBA007412C47E03A007B1CE8 /* CoinRowView.swift in Sources */,
 				DBD1D0CB2C47102000846C02 /* ContentView.swift in Sources */,
+				DBA007462C47E3B0007B1CE8 /* MockCoinModel.swift in Sources */,
 				DBD1D0E02C4714B300846C02 /* HomeView.swift in Sources */,
 				DBD1D0C92C47102000846C02 /* Crypto_TrackerApp.swift in Sources */,
 				DBD1D0E42C47160500846C02 /* CircleButtonView.swift in Sources */,
 				DBD1D0DA2C4712A600846C02 /* Color.swift in Sources */,
 				DBD1D0E62C471B7600846C02 /* CircleButtonAnimationView.swift in Sources */,
+				DBA007482C47E606007B1CE8 /* Double.swift in Sources */,
 				DBD1D0E92C471E9100846C02 /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
