@@ -9,16 +9,26 @@ import SwiftUI
 
 struct HomeView: View {
     
-    @State private var showPortfolio: Bool = false
+    @State private var showPortfolio: Bool = true
+    @EnvironmentObject private var vm: HomeViewModel
+    
     
     var body: some View {
+     
         ZStack {
             // setting background color
             Color.theme.backgroundColor
                 .ignoresSafeArea()
             VStack{
                 homeHeader
-                Spacer(minLength: 0)
+                columnTitles
+                
+                
+                
+                
+                allCoinsList
+                    .transition(.move(edge: .leading))
+                
                 
             }
             
@@ -28,11 +38,11 @@ struct HomeView: View {
 
 
 extension HomeView {
-private var homeHeader: some View {
+    private var homeHeader: some View {
         HStack {
             CircleButtonView(name: showPortfolio ? "plus": "info")
                 .background(
-                CircleButtonAnimationView(animate: $showPortfolio)
+                    CircleButtonAnimationView(animate: $showPortfolio)
                 )
             Spacer()
             Text(showPortfolio ? "Portfolio" : "Live Prices")
@@ -46,10 +56,40 @@ private var homeHeader: some View {
                 .onTapGesture {
                     withAnimation(.spring()) {
                         showPortfolio.toggle()
+                        
                     }
                 }
         }.padding(.horizontal)
     }
+    
+
+    
+    private var allCoinsList: some View {
+        List {
+            ForEach(vm.allCoins) { coin in
+                CoinRowView(coin: coin, showHoldingsColumn: showPortfolio)
+                    .listRowInsets(.init(top:10, leading:0, bottom:10, trailing: 10))
+            }
+        }
+        .listStyle(.plain)
+    }
+    
+    private var columnTitles: some View {
+        HStack {
+            Text("Coin")
+            Spacer()
+            if(showPortfolio) {
+                Text("Holdings")
+            }
+            Text("Price")
+                .frame(width: UIScreen.main.bounds.width / 3.5, alignment: .trailing)
+            
+        }
+        .font(.caption)
+        .foregroundColor(Color.theme.secondayText)
+        .padding(.horizontal)
+    }
+    
 }
 
 
@@ -57,4 +97,5 @@ private var homeHeader: some View {
     NavigationView {
         HomeView()
     }.navigationBarHidden(true)
+        .environmentObject(HomeViewModel())
 }
