@@ -20,16 +20,13 @@ struct HomeView: View {
             Color.theme.backgroundColor
                 .ignoresSafeArea()
             VStack{
+                
                 homeHeader
                 columnTitles
-                
-                
-                
-                
+
                 allCoinsList
                     .transition(.move(edge: .leading))
-                
-                
+                                
             }
             
         }
