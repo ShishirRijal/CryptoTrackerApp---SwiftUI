@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB2724BD2C4B0BF10031FD6A /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2724BC2C4B0BF10031FD6A /* NetworkingManager.swift */; };
 		DBA007412C47E03A007B1CE8 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA007402C47E03A007B1CE8 /* CoinRowView.swift */; };
 		DBA007462C47E3B0007B1CE8 /* MockCoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA007452C47E3B0007B1CE8 /* MockCoinModel.swift */; };
 		DBA007482C47E606007B1CE8 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA007472C47E606007B1CE8 /* Double.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB2724BC2C4B0BF10031FD6A /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		DBA007402C47E03A007B1CE8 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		DBA007452C47E3B0007B1CE8 /* MockCoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCoinModel.swift; sourceTree = "<group>"; };
 		DBA007472C47E606007B1CE8 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
@@ -52,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB2724BB2C4B0BDA0031FD6A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DB2724BC2C4B0BF10031FD6A /* NetworkingManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		DBA007442C47E398007B1CE8 /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +97,7 @@
 		DBD1D0C72C47102000846C02 /* Crypto Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				DB2724BB2C4B0BDA0031FD6A /* Utilities */,
 				DBB758A32C49AD0900BB771B /* Services */,
 				DBA007442C47E398007B1CE8 /* Mocks */,
 				DBD1D0D82C47127500846C02 /* Extensions */,
@@ -255,6 +266,7 @@
 				DBD1D0E02C4714B300846C02 /* HomeView.swift in Sources */,
 				DBD1D0C92C47102000846C02 /* Crypto_TrackerApp.swift in Sources */,
 				DBD1D0E42C47160500846C02 /* CircleButtonView.swift in Sources */,
+				DB2724BD2C4B0BF10031FD6A /* NetworkingManager.swift in Sources */,
 				DBD1D0DA2C4712A600846C02 /* Color.swift in Sources */,
 				DBD1D0E62C471B7600846C02 /* CircleButtonAnimationView.swift in Sources */,
 				DBA007482C47E606007B1CE8 /* Double.swift in Sources */,
