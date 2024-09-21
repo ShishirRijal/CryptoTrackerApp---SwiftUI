@@ -20,6 +20,8 @@
 		DBBD93502C9F57A600FFF15D /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBD934F2C9F57A600FFF15D /* SearchBarView.swift */; };
 		DBBD93522C9F598400FFF15D /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBD93512C9F598300FFF15D /* UIApplication.swift */; };
 		DBBD93542C9F5EBF00FFF15D /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBD93532C9F5EBF00FFF15D /* StatisticModel.swift */; };
+		DBBD93562C9F5F1C00FFF15D /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBD93552C9F5F1C00FFF15D /* StatisticView.swift */; };
+		DBBD93582C9F601100FFF15D /* HomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBD93572C9F601100FFF15D /* HomeStatsView.swift */; };
 		DBD1D0C92C47102000846C02 /* Crypto_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD1D0C82C47102000846C02 /* Crypto_TrackerApp.swift */; };
 		DBD1D0CB2C47102000846C02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD1D0CA2C47102000846C02 /* ContentView.swift */; };
 		DBD1D0D02C47102100846C02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD1D0CF2C47102100846C02 /* Preview Assets.xcassets */; };
@@ -45,6 +47,8 @@
 		DBBD934F2C9F57A600FFF15D /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		DBBD93512C9F598300FFF15D /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		DBBD93532C9F5EBF00FFF15D /* StatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
+		DBBD93552C9F5F1C00FFF15D /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		DBBD93572C9F601100FFF15D /* HomeStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatsView.swift; sourceTree = "<group>"; };
 		DBD1D0C52C47102000846C02 /* Crypto Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD1D0C82C47102000846C02 /* Crypto_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto_TrackerApp.swift; sourceTree = "<group>"; };
 		DBD1D0CA2C47102000846C02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -168,6 +172,7 @@
 			children = (
 				DBD1D0DF2C4714B300846C02 /* HomeView.swift */,
 				DBA007402C47E03A007B1CE8 /* CoinRowView.swift */,
+				DBBD93572C9F601100FFF15D /* HomeStatsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 				DB0217D02C4BF7C30057A7A2 /* CoinImage */,
 				DBD1D0E22C4715F700846C02 /* CIrcleButton */,
 				DBBD934F2C9F57A600FFF15D /* SearchBarView.swift */,
+				DBBD93552C9F5F1C00FFF15D /* StatisticView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -294,6 +300,7 @@
 				DB0217D22C4BF7D20057A7A2 /* CoinImageViewModel.swift in Sources */,
 				DBBD934E2C9F4EF000FFF15D /* LocalFileManager.swift in Sources */,
 				DBD1D0CB2C47102000846C02 /* ContentView.swift in Sources */,
+				DBBD93562C9F5F1C00FFF15D /* StatisticView.swift in Sources */,
 				DBA007462C47E3B0007B1CE8 /* MockCoinModel.swift in Sources */,
 				DBD1D0E02C4714B300846C02 /* HomeView.swift in Sources */,
 				DBBD93522C9F598400FFF15D /* UIApplication.swift in Sources */,
@@ -301,6 +308,7 @@
 				DBD1D0E42C47160500846C02 /* CircleButtonView.swift in Sources */,
 				DBBD93502C9F57A600FFF15D /* SearchBarView.swift in Sources */,
 				DB2724BD2C4B0BF10031FD6A /* NetworkingManager.swift in Sources */,
+				DBBD93582C9F601100FFF15D /* HomeStatsView.swift in Sources */,
 				DBD1D0DA2C4712A600846C02 /* Color.swift in Sources */,
 				DB0217D62C4C0E950057A7A2 /* CoinImageView.swift in Sources */,
 				DBD1D0E62C471B7600846C02 /* CircleButtonAnimationView.swift in Sources */,
